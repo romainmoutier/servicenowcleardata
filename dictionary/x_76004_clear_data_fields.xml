@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Fields" max_length="40" name="x_76004_clear_data_fields" type="collection">
+        <element dependent="table.table_name" dependent_on_field="table.table_name" label="Field" max_length="80" name="field" type="field_name" use_dependent_field="true"/>
+        <element label="Table" max_length="32" name="table" reference="x_76004_clear_data_clear_data_table" type="reference"/>
+        <index name="index">
+            <element name="table"/>
+        </index>
+    </element>
+</database>
